@@ -1,4 +1,21 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 h1 {
-  background-color: blue;
+  background-color: rgb(164, 164, 207);
   padding: 10px;
+}
+h6 {
+  font-weight: 600;
+}
+
+.mac-img {
+  height: 400px;
+  width: 400px;
+}
+
+#bold-line {
+  height: 2px;
+  color: black;
 }
