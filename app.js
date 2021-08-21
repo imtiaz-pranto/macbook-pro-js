@@ -6,7 +6,7 @@ function getValue(valueElement) {
   return valueAmount;
 }
 
-//calculation
+//Calculation
 function priceCalculation() {
   let bestPrice = getValue("best-price");
   let memoryPrice = getValue("memory-price");
@@ -17,7 +17,7 @@ function priceCalculation() {
   document.getElementById("final-amount").innerText = totalPrice;
 }
 
-//Ssetting values dynamically
+//Setting values dynamically
 function setValue(optionBtn, price, setTarget, clickState) {
   document.getElementById(optionBtn).addEventListener("click", function () {
     document.getElementById(setTarget).innerText = price;
