@@ -30,24 +30,32 @@
           </div>
           <!-- Right Side -->
           <div class="col-sm-6">
-            <h2>Customize your Blue 24-inch iMac with Apple M1 chip</h2>
+            <!-- <h2>Customize your Blue 24-inch iMac with Apple M1 chip</h2>
             <p>
               Apple M1 chip with 8-core CPU with 4 performance cores and 4
               efficiency cores, 7-core GPU, and 16-core Neural Engine 8GB
               unified memory 256GB SSD storage Two Thunderbolt / USB 4 ports
               Magic Mouse Magic Keyboard - US English
-            </p>
+            </p> -->
             <br />
             <!-- Memory Section -->
             <h6>Memory</h6>
             <div class="row">
               <div class="col-sm d-grid gap-2">
-                <button type="button " class="btn btn-outline-secondary">
+                <button
+                  id="memory-8gb"
+                  type="button "
+                  class="btn btn-outline-secondary"
+                >
                   8GB unified memory
                 </button>
               </div>
               <div class="col-sm d-grid gap-2">
-                <button type="button" class="btn btn-outline-secondary">
+                <button
+                  id="memory-16gb"
+                  type="button"
+                  class="btn btn-outline-secondary"
+                >
                   16GB unified memory
                 </button>
               </div>
@@ -60,17 +68,29 @@
             <h6>Storage</h6>
             <div class="row">
               <div class="col-sm d-grid gap-2">
-                <button type="button " class="btn btn-outline-secondary">
+                <button
+                  id="storage-256gb"
+                  type="button "
+                  class="btn btn-outline-secondary"
+                >
                   256GB SSD storage
                 </button>
               </div>
               <div class="col-sm d-grid gap-2">
-                <button type="button" class="btn btn-outline-secondary">
+                <button
+                  id="storage-512gb"
+                  type="button"
+                  class="btn btn-outline-secondary"
+                >
                   512GB SSD storage
                 </button>
               </div>
               <div class="col-sm d-grid gap-2">
-                <button type="button" class="btn btn-outline-secondary">
+                <button
+                  id="storage-1tb"
+                  type="button"
+                  class="btn btn-outline-secondary"
+                >
                   1TB SSD storage
                 </button>
               </div>
@@ -83,12 +103,20 @@
             <h6>Choose your delivery option</h6>
             <div class="row">
               <div class="col-sm d-grid gap-2">
-                <button type="button " class="btn btn-outline-secondary">
+                <button
+                  id="delivary-free"
+                  type="button "
+                  class="btn btn-outline-secondary"
+                >
                   Friday, Aug 25 FREE Prime Delivery
                 </button>
               </div>
               <div class="col-sm d-grid gap-2">
-                <button type="button" class="btn btn-outline-secondary">
+                <button
+                  id="delivary-paid"
+                  type="button"
+                  class="btn btn-outline-secondary"
+                >
                   Friday, Aug 21 Delivery charge $20
                 </button>
               </div>
@@ -101,28 +129,28 @@
               <div class="row">
                 <div class="col-8">
                   <div class="row">
-                    <div class="col-6"><h6>Best Price</h6></div>
-                    <div class="col-6">$<span id="best-price">1299</span></div>
+                    <div class="col-8"><h6>Best Price</h6></div>
+                    <div class="col-4">$<span id="best-price">1299</span></div>
                   </div>
                   <hr />
                   <div class="row">
-                    <div class="col-6"><h6>Extra Memory Cost</h6></div>
-                    <div class="col-6">$<span id="memory-price">0</span></div>
+                    <div class="col-8"><h6>Extra Memory Cost</h6></div>
+                    <div class="col-4">$<span id="memory-price">0</span></div>
                   </div>
                   <hr />
                   <div class="row">
-                    <div class="col-6"><h6>Extra Storage Cost</h6></div>
-                    <div class="col-6">$<span id="storage-price">0</span></div>
+                    <div class="col-8"><h6>Extra Storage Cost</h6></div>
+                    <div class="col-4">$<span id="storage-price">0</span></div>
                   </div>
                   <hr />
                   <div class="row">
-                    <div class="col-6"><h6>Delivery charge</h6></div>
-                    <div class="col-6">$<span id="delivary-price">0</span></div>
+                    <div class="col-8"><h6>Delivery charge</h6></div>
+                    <div class="col-4">$<span id="delivary-price">0</span></div>
                   </div>
                   <hr id="bold-line" />
                   <div class="row">
-                    <div class="col-6"><h6>Total Price</h6></div>
-                    <div class="col-6">$<span id="total-price">1299</span></div>
+                    <div class="col-8"><h6>Total Price</h6></div>
+                    <div class="col-4">$<span id="total-price">1299</span></div>
                   </div>
                   <hr />
                   <div class="row">
@@ -130,7 +158,11 @@
                       <input id="promo-box" type="text" />
                     </div>
                     <div class="col-4 d-grid gap-2">
-                      <button type="button" class="btn btn-danger">
+                      <button
+                        id="promo-button"
+                        type="button"
+                        class="btn btn-danger"
+                      >
                         Apply
                       </button>
                     </div>
